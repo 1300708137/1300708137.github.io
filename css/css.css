@@ -1,0 +1,116 @@
+.top{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.top .dh{
+	width: 100%;
+	height: 75px;
+	/*background: darkgoldenrod;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	text-align: center;
+	z-index: 3;
+}
+.top .dh .dh_left{
+	height: 100%;
+	height: 75px;
+	/*display: flex;*/
+	float: left;
+}
+.top .dh .dh_left ul{
+	
+}
+.top .dh .dh_left ul li{
+	width: 100px;
+	height: 75px;
+	/*line-height: 100px;*/
+	display: inline-block;
+	font-size: 17px;
+	/*padding: 10px;*/
+	line-height: 75px;
+	position: relative;
+	margin-left: 5px;
+}
+.top .dh .dh_left ul li .glyphicon{
+	font-size: 15px;
+}
+.top .dh .dh_left ul li:hover .glyphicon{
+	transform:rotate(180deg);
+}
+.top .dh .dh_left ul li .ej{
+	/*margin-top: 20px;*/
+	position: absolute;
+	left: -15px;
+	width: 120px;
+	background: black;
+	display: none;
+	border-radius: 10px;
+}
+.top .dh .dh_left ul li .ej a{
+	display: inline-block;
+	width: 120px;	
+	font-size: 14px;
+	color: white;
+}
+.top .dh .dh_left ul li .ej a:hover{
+	color: brown;
+}
+.top .dh a{
+	color: white;
+	text-decoration: none;
+}
+.top .dh .dh_right{
+	width: auto;
+	float: right;
+	/*display: flex;*/
+}
+.top .dh .dh_right ul li{
+	display: inline-block;
+	font-size: 17px;
+	padding: 10px;
+	line-height: 50px;
+}
+.top .dh .dh_right ul li .glyphicon{
+	margin-right: 5px;
+	font-size: 15px;
+}
+.top .dh .dh_right ul li .btn{
+	width: 80px;
+	background: none;
+	border: 1px solid white;
+	color: white;
+}
+.top .dh .dh_right ul li .btn:hover{
+	background: white;
+	color: #000000;
+}
+
+.ss{
+	width: 800px;
+	/*max-width: 800px;*/
+	height: 75px;
+	background: seagreen;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	z-index: 5;
+}
+
+
+.lbt{
+	width: 100%;
+	height: 450px;
+	/*background: salmon;*/
+}
+.lbt img{
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	display: none;
+}
+.lbt img.s{
+	display: block;
+}
